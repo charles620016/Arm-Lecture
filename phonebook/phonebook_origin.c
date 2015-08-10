@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
 #define MAX_LAST_NAME_SIZE 16
 typedef struct __PHONE_BOOK_ENTRY {
     char lastName[MAX_LAST_NAME_SIZE];
