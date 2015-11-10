@@ -16,7 +16,7 @@ fibseq.o: fibseq.c
 
 %.o: %.c
 	$(CC) -c $(CFLAGS) -o $@ $<
-
+	
 %.o: %.s
 	$(CC) -c $(CFLAGS) -o $@ $<
 
